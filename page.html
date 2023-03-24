@@ -1,0 +1,11 @@
+<html>
+<title>Envoie de fichiers avec un bouton d'upload</title>
+<body>
+<h1>Upload d'un fichier </h1> 
+<form enctype="multipart/form-data" action="exemple.php" method="post">
+  <input type="hidden" name="MAX_FILE_SIZE" value="10000000" />
+  <h3>choisir le fichier : <input type="file" name="mon_fichier"/></h3>
+  <p><input type="submit" value="Uploader le fichier" /></p>
+</form>
+</body>
+</html>
